@@ -816,7 +816,8 @@ def menu(page:Page,params:Params,basket:Basket):
                                    ),
 
                                    actions=[                                                                                
-                                           Container(                                               
+                                           Container(
+                                               clip_behavior=ClipBehavior.NONE,                                               
                                                width=840,                                                           
                                                bgcolor="white",
                                                border_radius=BorderRadius(0,0,10,10),
